@@ -3,13 +3,14 @@ import '../styles/App.css';
 import styles from '../styles/appStyles.module.css';
 const App = () => {
 const heading ={
-
+   fontSize: '30px',
+    color: 'green'
 
 }
   return (
     <div id="main">
-      <h1 >Success</h1>
-      <h1 id='error' >Error</h1>
+      <h1 style={heading}>Success</h1>
+      <h1 id='error' style={{fontSize: '50px', color: 'red'}}>Error</h1>
     </div>
   )
 }
